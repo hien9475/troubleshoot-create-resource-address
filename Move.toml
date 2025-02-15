@@ -1,0 +1,12 @@
+[package]
+name = "example"
+version = "0.0.0"
+
+[addresses]
+example = "_"
+deployer = "7a4bee95fd517ffa5152d1020651c9d7e063f1ea7822be23ec50e8e7bf0ce7b0"
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-core.git"
+subdir = "aptos-move/framework/aptos-framework"
+rev = "mainnet"
